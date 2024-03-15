@@ -6,6 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1></h1>h1?
+<table style="width:100%">
+  <tr>
+    <th>Sections & Items</th>
+    <th>Details/Quantity</th>
+    <th>Score Range</th>
+  </tr>
+  <tr>
+    <td>Section A</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</table>
 </body>
 </html>
