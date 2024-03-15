@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Work Ouput Page</title>
 </head>
 <body>
 <table style="width:100%">
@@ -17,6 +17,10 @@
     <td>1</td>
     <td>2</td>
   </tr>
-</table>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
 </body>
 </html>
