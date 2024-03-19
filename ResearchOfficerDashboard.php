@@ -8,7 +8,6 @@
             background-color: #fff;
             font-family: Arial, sans-serif;
         }
-
         #logo {
             position: absolute;
             top: 10px;
@@ -16,7 +15,6 @@
             width: 250px;
             height: auto;
         }
-
         #clocks {
             position: absolute;
             top: 125px;
@@ -38,9 +36,7 @@
             position: absolute;
             top: 5px;
             left: 1260px;
-        }
-        
-        
+        }  
         .clock {
             display: inline-block;
             margin: 0 20px;
@@ -87,4 +83,3 @@
     </script>
 </body>
 </html>
-
