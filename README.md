@@ -6,6 +6,6 @@ Mac - Database Creation, Navbar\
 Dante - Work Upload, Sign up Page\
 Alex - Sign in Page\
 Ibi - Research Officer Dashboard\
-Tamal - Logout Page\
+Tamal - Logout Page
 # Done
 Nothing is Complete yet
