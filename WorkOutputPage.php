@@ -10,8 +10,8 @@
   <div class="container">
       <img src="https://img02.mockplus.com/rp/image/2024-03-07/537e3a50-dbe1-11ee-9ed8-7f6f33dbdfc3.png" alt="Logo" class="logo">
       <div class="user-info">
-        <button class="language-button bm" style="font-weight:bold; font-size:20px;" onclick="window.location.href='WorkOutputPageM.html'" >bm</button>
-         <button class="language-button en" style="font-weight:bold; font-size:20px;" onclick="window.location.href='WorkOutputPage.html'">en</button>
+        <button class="language-button bm" style="font-weight:bold; font-size:20px;" onclick="window.location.href='WorkOutputPageM.php'" >bm</button>
+         <button class="language-button en" style="font-weight:bold; font-size:20px;" onclick="window.location.href='WorkOutputPage.php'">en</button>
           <button style="background-color: blue; font-weight:bold; font-size:20px;">Log Out</button>
           <img src="https://www.svgrepo.com/show/497407/profile-circle.svg" alt="User Profile" width="55">
       </div>
