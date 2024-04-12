@@ -63,6 +63,10 @@
             color: blue;
             margin-top: 10px; 
         }
+
+        .form-group {
+    margin-bottom: 20px;
+}
     </style>
 </head>
 <body>
@@ -71,11 +75,17 @@
            
         </div>
         <div class="right-side">
+            <h1>Sign In</h1>
             <form action="login.php" method="post">
-                <input type="text" name="email" placeholder="Email"><br>
-                <input type="password" name="password" placeholder="Password"><br>
-                <input type="text" name="verification_code" placeholder="Verification Code"><br>
-                <div class="remember-me">
+                    <div class="form-group">
+        <label for="email">Email:</label>
+        <input class="input-field"  type="text" id="email" name="email" required><br><br>
+    </div>
+    <div class="from-group">
+        <label for="password">Password:</label>
+        <input class="input-field" type="password" id="password" name="password" required><br><br>
+    </div>  
+             <div class="remember-me">
                     <input type="checkbox" id="remember_me" name="remember_me">
                     <label for="remember_me">Remember me</label>
                     <a href="#" class="forgot-password">Forgotten password?</a>
