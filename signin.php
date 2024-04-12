@@ -91,9 +91,12 @@
                     <a href="#" class="forgot-password">Forgotten password?</a>
                 </div>
                 <button type="submit" class="submit-btn">Get Started</button><br>
-                <span class="create-account">Create Account</span>
             </form>
         </div>
     </div>
+        if (isset($error_message)) {
+        echo "<p style='color: red;'>$error_message</p>";
+    }
+    ?>
 </body>
 </html>
