@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             switch ($roleId) {
                 case 101:
                     $_SESSION['user'] = $email;
-                    header('Location: research_officer_dashboard.php');
+                    header('Location: ResearchOfficerDashboard.php');
                     exit();
                 case 102:
                     $_SESSION['user'] = $email;
