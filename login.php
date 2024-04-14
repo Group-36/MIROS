@@ -21,19 +21,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         if ($roleRow = $roleIdResult->fetchArray()) {
             switch ($roleId) {
-                case 101:
+                case 3:
                     $_SESSION['user'] = $email;
                     header('Location: ResearchOfficerDashboard.php');
                     exit();
-                case 102:
+                case 2:
                     $_SESSION['user'] = $email;
                     header('Location: SupervisorDashboard.php');
                     exit();
-                case 103:
+                case 1:
                     $_SESSION['user'] = $email;
                     header('Location: TopManagementDashboard.php');
                     exit();
-                case 104:
+                case 4:
                     $_SESSION['user'] = $email;
                     header('Location: AdminDashboard.php');
                     exit();
