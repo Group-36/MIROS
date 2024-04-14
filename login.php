@@ -27,15 +27,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     exit();
                 case 102:
                     $_SESSION['user'] = $email;
-                    header('Location: supervisor_dashboard.php');
+                    header('Location: SupervisorDashboard.php');
                     exit();
                 case 103:
                     $_SESSION['user'] = $email;
-                    header('Location: top_management_dashboard.php');
+                    header('Location: TopManagementDashboard.php');
                     exit();
                 case 104:
                     $_SESSION['user'] = $email;
-                    header('Location: admin_dashboard.php');
+                    header('Location: AdminDashboard.php');
                     exit();
                 default:
                     $error = "Invalid role ID. Please try again.";
