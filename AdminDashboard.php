@@ -15,7 +15,7 @@
           </header>
         <button class="language-button bm" style="font-weight:bold; font-size:20px;" onclick="window.location.href='AdminDashboardM.php'" >bm</button>
          <button class="language-button en" style="font-weight:bold; font-size:20px;" onclick="window.location.href='AdminDashboard.php'">en</button>
-          <button style="background-color: blue; font-weight:bold; font-size:20px;">Log Out</button>
+          <button style="background-color: blue; font-weight:bold; font-size:20px;" onclick="window.location.href='logout.html'" >Log Out</button>
           <img src="https://www.svgrepo.com/show/497407/profile-circle.svg" alt="User Profile" width="55">
       </div>
       <br>
