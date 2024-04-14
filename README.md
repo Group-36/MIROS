@@ -3,9 +3,9 @@
 A Bespoke Timesheet Website
 # In Progress
 Mac - Database Creation, Navbar\
-Dante - Work Upload, Sign up Page\
-Alex - Login/Home Page (complete)
-Ibi - Research Officer Dashboard\
-Tamal - Logout Page
+Dante - Work Upload, Research Officer, Supervisor + Top Management Dashboards,\
+Alex - Login/Home Page, Admin Dashboard\
+Ibi - Log out Page\
+Tamal - 
 # Done
 Nothing is Complete yet
