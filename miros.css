@@ -9,8 +9,8 @@ body {
 .container {
     position: relative;
     margin: 50px auto;
-    width: 1200px;
-    height: 820px;
+    width: 95vw;
+    height: 100vh;
     background-color: white;
     padding: 20px;
     box-sizing: border-box;
@@ -118,63 +118,27 @@ label {
 .img-box {
     text-align: center;
 }
-       .body3 {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .container2 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .left-side {
-            flex: 1;
-            background-image: url('MIROSbackground.png');
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 20px;
-        }
-        .right-side {
-            flex: 1;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        input[type="text"], input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-        }
-        .remember-me {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-        .forgot-password {
-            margin-left: auto; 
-        }
-        .submit-btn {
-            background-color: orange;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 20px; 
-        }
-        .create-account {
-            color: blue;
-            margin-top: 10px; 
-        }
 
+.charts-card {
+    background-color: #ffffff;
+    color: black;
+    margin-bottom: 2.5vh;
+    margin-left: 6vw;
+    padding: 25px;
+    box-sizing: border-box;
+    -webkit-column-break-inside: avoid;
+    border: 1px solid #d2d2d3;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+    height:  40vh;
+    width: 20vw;
+  }
+
+  .chart-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 600;
+  }
 
