@@ -33,7 +33,7 @@
       <div class="charts-card">
         <p class="chart-title">View User's of the system</p>
         <dl>
-        <button type="submit" id="submit-btn" onclick="window.location.href='ViewUsers.php'">View User's</button>
+        <button type="submit" id="submit-btn" onclick="window.location.href='ViewUsers.php'"> View User's</button>
         </dl>
         <br>
         <p class="chart-title">View User's</p>
