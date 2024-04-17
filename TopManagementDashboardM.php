@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Management Dashboard</title>
+    <title>Papan Pemuka Pengurusan Atasan</title>
     <link rel="stylesheet" href="miros.css">
 </head>
 <body>
@@ -11,11 +11,11 @@
       <img src="https://img02.mockplus.com/rp/image/2024-03-07/537e3a50-dbe1-11ee-9ed8-7f6f33dbdfc3.png" alt="Logo" class="logo">
       <div class="user-info">
         <header style="margin-right: 16vw;">
-          <h1 style="color: rgb(27, 131, 129); font-weight: bold;">Top Management Dashboard</h1>
+          <h1 style="color: rgb(27, 131, 129); font-weight: bold;">Papan Pemuka Pengurusan Atasan</h1>
         </header>
         <button class="language-button bm" style="font-weight:bold; font-size:20px;" onclick="window.location.href='TopManagementDashboardM.php'" >bm</button>
         <button class="language-button en" style="font-weight:bold; font-size:20px;" onclick="window.location.href='TopManagementDashboard.php'">en</button>
-        <button style="background-color: blue; font-weight:bold; font-size:20px;">Log Out</button>
+        <button style="background-color: blue; font-weight:bold; font-size:20px;">Log Keluar</button>
         <img src="https://www.svgrepo.com/show/497407/profile-circle.svg" alt="User Profile" width="55">
       </div>
       <br><br><br><br>
@@ -25,42 +25,42 @@
               <tr>
                 <th>
                   <div class="charts-card" style="height: 85vh;">
-                    <h1 class="chart-title">Team Collaboration</h1>
+                    <h1 class="chart-title">Kerjasama Pasukan</h1>
                     <form id="myForm1">
                       <div class="form-group">
                       <div class="form-group">
-                      <label for="sectionid" style="color: black;">Please Select Employee</label>
+                      <label for="sectionid" style="color: black;">Sila Pilih Pekerja</label>
                         <select class="sectionclass" id="sectionid" onchange="updateItems()">
-                          <option value="A">Employee 1</option>
-                          <option value="B">Employee 2</option>
-                          <option value="C">Employee 3</option>
+                          <option value="A">Pekerja 1</option>
+                          <option value="B">Pekerja 2</option>
+                          <option value="C">Pekerja 3</option>
                         </select>
                       </div>
 
                       <div class="form-group">
-                      <label for="sectionid" style="color: black;">Set</label>
+                      <label for="sectionid" style="color: black;">Tetapkan</label>
                         <select class="sectionclass" id="sectionid" onchange="updateItems()">
-                          <option value="A">Task</option>
-                          <option value="B">Notification</option>
-                          <option value="C">Deadlines</option>
+                          <option value="A">Tugasan</option>
+                          <option value="B">Pemberitahuan</option>
+                          <option value="C">Tarikh akhir</option>
                         </select>
                       </div>
 
                       <div class="form-group">
-                        <label for="DQ" style="color: black;">Details</label>
-                        <input type="text" class="DQclass" id="DQid" placeholder="Details" required>
+                        <label for="DQ" style="color: black;">Butiran</label>
+                        <input type="text" class="DQclass" id="DQid" placeholder="Butiran" required>
                       </div>
 
                       <div style="text-align: left;">
-                        <label for="file" style="color: black;">Please Choose File</label>
-                        <input type="file" class="addfile" id="addfileid" placeholder="Please Choose File" style="color: black;" required>
+                        <label for="file" style="color: black;">Sila Pilih Fail</label>
+                        <input type="file" class="addfile" id="addfileid" placeholder="Sila Pilih Fail" style="color: black;" required>
                       </div>
                       <br>
                       
-                      <button type="submit" id="submit-btn">Submit</button>
+                      <button type="submit" id="submit-btn">Hantar</button>
                     </form>
                     <br>
-                    <h2>Contact</h2>
+                    <h2>Kenalan</h2>
                     <a href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=1&msaredir=1&client-request-id=e38084c6-54f4-93bf-cb6e-31af0c4e3244&protectedtoken=true&claims=%7b%22id_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d&nonce=638487103811690149.3b321c46-9295-4050-892f-092733175761&state=Dcu9DoIwFEDhou_iVrm3_3cgDhrDgAuaaNgoYCKRYEqD8e3t8J3tZIyxbbJJMkhh1kinnEWQDtEQoKK99FJgpwwnQZor0MAdiScHElZKtNoazNJ7yudvmx-W2MahwF0Y-lcYunibi7asoSsvpvrR2j_qxQsK1URTM73H5qpHL2D19_PHH90f&sso_reload=true"> <!-- Example path, replace with the actual path to Outlook -->
                     <img src="https://cdn2.iconfinder.com/data/icons/New-Social-Media-Icon-Set-V11/512/email.png" style="height: 10vh;" alt="Image Description">
                     </a>
@@ -71,10 +71,10 @@
                 <tr>
                 <th>
                   <div class="charts-card">
-                    <h1 class="chart-title">Scoring</h1>
+                    <h1 class="chart-title">Pemarkahan</h1>
                     <form id="myForm2">
                       <div class="form-group">
-                        <label for="sectionid" style="color: black;">Please Select Work Output</label>
+                        <label for="sectionid" style="color: black;">Sila Pilih Output Kerja</label>
                         <select class="sectionclass" id="sectionid" onchange="updateItems()">
                           <option value="A">WO1</option>
                           <option value="B">WO2</option>
@@ -83,37 +83,37 @@
                       </div>
 
                       <div class="form-group">
-                        <label for="DQ" style="color: black;">Please enter score</label>
+                        <label for="DQ" style="color: black;">Sila masukkan markah</label>
                         <input type="number" class="DQclass" id="DQid" placeholder="42 to 55" min="42" max="55" required>
                       </div>
 
                       <div class="form-group" style="margin-bottom: -0.5vh;">
-                        <label for="DQ" style="color: black;">Details</label>
-                        <input type="text" class="DQclass" id="DQid" placeholder="Details" required>
+                        <label for="DQ" style="color: black;">Butiran</label>
+                        <input type="text" class="DQclass" id="DQid" placeholder="Butiran" required>
                       </div>
                       <br>
                       
-                      <button type="submit" id="submit-btn">Submit</button>
+                      <button type="submit" id="submit-btn">Menyerahkan</button>
                     </form>
                   </div>
                 </th>
                 
                 <th>
                   <div class="charts-card" style="margin-left: 30px;">
-                  <p class="chart-title">Notifications</p>
+                  <p class="chart-title">Pemberitahuan</p>
                     <dl>
-                      <dd style="text-align: left;">- Notification 1</dd>
-                      <dd style="text-align: left;">- Notification 2</dd>
-                      <dd style="text-align: left;">- Notification 3</dd>
+                      <dd style="text-align: left;">- Pemberitahuan 1</dd>
+                      <dd style="text-align: left;">- Pemberitahuan 2</dd>
+                      <dd style="text-align: left;">- Pemberitahuan 3</dd>
                     </dl>
                   </div>
                 </th>
 
                 <th>
                   <div class="charts-card" style="margin-left: 30px;">
-                    <p class="chart-title">Work Targets & KPI's</p>
+                    <p class="chart-title">Sasaran Kerja & KPI</p>
                     <dl>
-                      <button type="submit" id="submit-btn" onclick="window.location.href='WorkTKPI.php'">Set Work Target & KPI</button>
+                      <button type="submit" id="submit-btn" onclick="window.location.href='WorkTKPIM.php'">Tetapkan Sasaran Kerja & KPI</button>
                     </dl>
                   </div>
                 </th>
@@ -122,7 +122,7 @@
               <tr>
                 <th colspan="2">
                   <div class="charts-card">
-                    <p class="chart-title">Overall Performance Trends</p>
+                    <p class="chart-title">Trend Prestasi Keseluruhan</p>
                     <div id="area-chart"></div>
                     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
                     <script type="text/javascript">
@@ -133,7 +133,7 @@
 
                       function drawChart() {
                         var data = google.visualization.arrayToDataTable([
-                          ['Year', 'Profit', 'Loss'],
+                          ['Year', 'keuntungan', 'Rugi'],
                           ['2021', 800, 400],
                           ['2022', 1000, 460],
                           ['2023', 600, 900],
@@ -141,9 +141,9 @@
                         ]);
 
                         var options = {
-                          title: 'Performance',
+                          title: 'Prestasi',
                           hAxis: {
-                            title: 'Year',
+                            title: 'tahun',
                             titleTextStyle: {
                               color: '#333'
                             }
@@ -163,7 +163,7 @@
                 
                 <th colspan="3">
                   <div class="charts-card" style="margin-left: -20.2vw;">
-                    <p class="chart-title">Research officers Performance</p>
+                    <p class="chart-title">Prestasi pegawai penyelidik</p>
                     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
@@ -191,7 +191,7 @@
         ]);
 
         var options = {
-          title: 'Rsearch Officer Performance'
+          title: 'Prestasi Pegawai Penyelidik'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -209,7 +209,7 @@
                 
                 <th>
                   <div class="charts-card" style="margin-left: -20.2vw;">
-                    <p class="chart-title">Supervisors Performance</p>
+                    <p class="chart-title">Prestasi Penyelia</p>
                     <div id="donut-chart"></div>
                     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -241,7 +241,7 @@
         ]);
 
         var options = {
-          title: 'Supervisor Performance',
+          title: 'Prestasi Penyelia',
           pieHole: 0.4,
         };
 
