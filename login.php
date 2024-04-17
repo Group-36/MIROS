@@ -76,6 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <label for="role_id">Role ID:</label>
                     <input class="input-field" type="text" id="role_id" name="role_id" required><br><br>
                 </div>
+                <div>Want to <a href=Signup.php>sign up?</a></div>
                 <?php if (isset($error)) { ?>
                     <p style="color: red;"><?php echo $error; ?></p>
                 <?php } ?>
