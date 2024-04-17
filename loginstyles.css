@@ -11,7 +11,7 @@ body {
 }
 .left-side {
     flex: 1;
-    background-image: url('MIROSbackground.png');
+    background-image: url('/images/MIROSbackground.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
