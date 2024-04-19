@@ -15,7 +15,7 @@
         </header>
         <button class="language-button bm" style="font-weight:bold; font-size:20px;" onclick="window.location.href='TopManagementDashboardM.php'" >bm</button>
         <button class="language-button en" style="font-weight:bold; font-size:20px;" onclick="window.location.href='TopManagementDashboard.php'">en</button>
-        <button style="background-color: blue; font-weight:bold; font-size:20px;">Log Keluar</button>
+        <button style="background-color: blue; font-weight:bold; font-size:20px;" onclick="window.location.href='logout.php'">Log Keluar</button>
         <img src="https://www.svgrepo.com/show/497407/profile-circle.svg" alt="User Profile" width="55">
       </div>
       <br><br><br><br>
