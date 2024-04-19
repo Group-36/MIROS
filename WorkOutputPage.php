@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="user-info">
       <button class="language-button bm" style="font-weight:bold; font-size:20px;" onclick="window.location.href='WorkOutputPageM.php'">bm</button>
       <button class="language-button en" style="font-weight:bold; font-size:20px;" onclick="window.location.href='WorkOutputPage.php'">en</button>
-      <button style="background-color: blue; font-weight:bold; font-size:20px;" onclick="window.location.href='logout.html'">Log Out</button>
+      <button style="background-color: blue; font-weight:bold; font-size:20px;" onclick="window.location.href='logout.php'">Log Out</button>
       <img src="https://www.svgrepo.com/show/497407/profile-circle.svg" alt="User Profile" width="55">
     </div>
     <br>
