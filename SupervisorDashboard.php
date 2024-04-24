@@ -170,9 +170,9 @@
                   <div class="charts-card" style="margin-left: -20.2vw;">
                     <p class="chart-title">Notifications</p>
                     <dl>
-                      <dd style="text-align: left;">- Notification 1</dd>
-                      <dd style="text-align: left;">- Notification 2</dd>
-                      <dd style="text-align: left;">- Notification 3</dd>
+                      <dd style="text-align: left;">- Admin has updated your profile</dd>
+                      <dd style="text-align: left;">- Work Upload Denied</dd>
+                      <dd style="text-align: left;">- Work Approved</dd>
                     </dl>
                   </div>
                 </th>
