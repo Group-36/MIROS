@@ -102,9 +102,9 @@
                   <div class="charts-card" style="margin-left: 30px;">
                     <p class="chart-title">Tasks</p>
                     <dl>
-                      <dd style="text-align: left;">- Task 1</dd>
-                      <dd style="text-align: left;">- Task 2</dd>
-                      <dd style="text-align: left;">- Task 3</dd>
+                      <dd style="text-align: left;">- Hit Research Deadline</dd>
+                      <dd style="text-align: left;">- Update Password</dd>
+                      <dd style="text-align: left;">- Invite Team to weekly meeting</dd>
                     </dl>
                   </div>
                 </th>
@@ -159,9 +159,9 @@
                   <div class="charts-card" style="margin-left: -20.2vw;">
                     <p class="chart-title">Deadlines</p>
                     <dl>
-                      <dd style="text-align: left;">- Deadline 1</dd>
-                      <dd style="text-align: left;">- Deadline 2</dd>
-                      <dd style="text-align: left;">- Deadline 3</dd>
+                      <dd style="text-align: left;">- All Deadlines</dd>
+                      <dd style="text-align: left;">- Must be Hit</dd>
+                      <dd style="text-align: left;">- Monthly</dd>
                     </dl>
                     <div id="reminders-warnings-chart"></div>
                   </div>
