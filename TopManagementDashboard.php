@@ -191,7 +191,7 @@
         ]);
 
         var options = {
-          title: 'Rsearch Officer Performance'
+          title: 'Research Officer Performance'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
