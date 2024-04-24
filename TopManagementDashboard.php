@@ -31,9 +31,9 @@
                       <div class="form-group">
                       <label for="sectionid" style="color: black;">Please Select Employee</label>
                         <select class="sectionclass" id="sectionid" onchange="updateItems()">
-                          <option value="A">Employee 1</option>
-                          <option value="B">Employee 2</option>
-                          <option value="C">Employee 3</option>
+                          <option value="A">Adhil Smith</option>
+                          <option value="B">Joe Bloggs</option>
+                          <option value="C">Michael Hackson</option>
                         </select>
                       </div>
 
@@ -102,9 +102,9 @@
                   <div class="charts-card" style="margin-left: 30px;">
                   <p class="chart-title">Notifications</p>
                     <dl>
-                      <dd style="text-align: left;">- Notification 1</dd>
-                      <dd style="text-align: left;">- Notification 2</dd>
-                      <dd style="text-align: left;">- Notification 3</dd>
+                      <dd style="text-align: left;">- Maya has missed the deadline</dd>
+                      <dd style="text-align: left;">- Joe has left the Company</dd>
+                      <dd style="text-align: left;">- Adhil has submitted  expenses</dd>
                     </dl>
                   </div>
                 </th>
