@@ -76,9 +76,9 @@
       <div class="charts-card" style="margin-left: 30px;">
         <p class="chart-title">Notifications</p>
         <dl>
-          <dd style="text-align: left;">- Notification 1</dd>
-          <dd style="text-align: left;">- Notification 2</dd>
-          <dd style="text-align: left;">- Notification 3</dd>
+          <dd style="text-align: left;">- Work 10287 Approved</dd>
+          <dd style="text-align: left;">- Work 02941 Approved</dd>
+          <dd style="text-align: left;">- Work 04877 Submitted</dd>
           </dl>
       </div>
     </th>
@@ -89,9 +89,9 @@
       <div class="charts-card">
         <p class="chart-title">Tasks</p>
         <dl>
-          <dd style="text-align: left;">- Task 1</dd>
-          <dd style="text-align: left;">- Task 2</dd>
-          <dd style="text-align: left;">- Task 3</dd>
+          <dd style="text-align: left;">- Upload Proof of Research</dd>
+          <dd style="text-align: left;">- Resubmit Rejected Assignment</dd>
+          <dd style="text-align: left;">- Upload Yearly Expenses Form</dd>
           </dl>
   </div>
     </th>
@@ -136,9 +136,9 @@
       <div class="charts-card" style="margin-left: 30px;">
         <p class="chart-title">Deadlines</p>
         <dl>
-          <dd style="text-align: left;">- Deadline 1</dd>
-          <dd style="text-align: left;">- Deadline 2</dd>
-          <dd style="text-align: left;">- Deadline 3</dd>
+          <dd style="text-align: left;">- All Deadlines</dd>
+          <dd style="text-align: left;">- Must be Hit</dd>
+          <dd style="text-align: left;">- Monthly</dd>
           </dl>
         <div id="reminders-warnings-chart"></div>
       </div>
