@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="signupcss.css">
 </head>
 <body>
-    <img src="miroslogo.png" alt="Miros Logo" class="logo">
+    <img src="images/logo_miros_only.png" alt="Miros Logo" class="logo">
     <div class="signup-form">
         <h2 class="signup-title">Sign Up</h2>
         <form action="signup_process.php" method="post">
